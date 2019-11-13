@@ -2,6 +2,10 @@ body {
     background: #748066;
 }
 
+#div1 {
+    background: darkgoldenrod;
+}
+
 #out2 {
     color: red;
 }
