@@ -10,12 +10,26 @@ function f1() {
   }
 }
 
-// цикл WHILE
+// цикл WHILE (пока) с пред условием
 function f2() {
   let p = document.getElementById('out_f2');
-  let j;
+
+  let j = 0;
+  while (j < 50) {
+    // j++; начнется с 1
+    p.innerHTML += j + ' ';
+    j++; // начнется с 0
+  }
 }
 
+// цикл DO WHILE (делать (выполнять) пока) с пост условием
 function f3() {
+  let p = document.getElementById('out_f3');
 
+  let x = 100;
+  do {
+    p.innerHTML += x + ' ';
+    x--;
+  }
+  while (x > 0);
 }
